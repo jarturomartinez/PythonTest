@@ -21,7 +21,7 @@ xrp_mxn = api.ticker('xrp_mxn')
 eth_btc = api.ticker('eth_btc')
 bch_btc = api.ticker('bch_btc')
 
-con = lite.connect('bitso.db')
+con = lite.connect('./Database/bitso.db')
 
 with con:
 
