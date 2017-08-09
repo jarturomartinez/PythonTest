@@ -23,6 +23,7 @@ bch_btc = api.ticker('bch_btc')
 
 con = lite.connect('./Database/bitso.db')
 
+#Database Operations
 with con:
 
     cur = con.cursor()
